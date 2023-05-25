@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppListaTarefas</string>
+    <string name="txt_titulo_lista_de_tarefas">Lista de tarefas</string>
+    <string name="txt_edit_adicione_um_titulo">Adicione um titulo</string>
+    <string name="txt_edit_insira_uma_descricao">Insira uma descrição</string>
+    <string name="txt_edit_data_de_conclusao">Data de conclusão</string>
+    <string name="txt_titulo">Titulo</string>
+    <string name="txt_data_de_conclusao">Data de conclusão</string>
+    <string name="txt_observacao">Observação</string>
+    <string name="txt_button_finalizar">Finalizar</string>
+    <string name="txt_button_salvar">Salvar</string>
+    <string name="txt_button_limpar">Limpar</string>
+</resources>
