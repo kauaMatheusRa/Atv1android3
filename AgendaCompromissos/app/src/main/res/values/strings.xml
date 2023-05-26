@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AgendaCompromissos</string>
+    <string name="txt_titulo_agenda_compromisso">Agenda compromisso</string>
+    <string name="txt_edit_adicione_um_titulo">Adicione um titulo</string>
+    <string name="txt_edit_data">Data</string>
+    <string name="txt_edit_horario">Horario</string>
+    <string name="txt_edit_local">Local</string>
+    <string name="txt_edit_titulo">Titulo</string>
+</resources>
