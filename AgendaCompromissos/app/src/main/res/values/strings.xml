@@ -6,4 +6,8 @@
     <string name="txt_edit_horario">Horario</string>
     <string name="txt_edit_local">Local</string>
     <string name="txt_edit_titulo">Titulo</string>
+    <string name="txt_criar_compromisso">+ Criar compromisso</string>
+    <string name="txt_button_salvar">Salvar</string>
+    <string name="txt_button_limpar">Limpar</string>
+    <string name="txt_button_finalizar">Finalizar</string>
 </resources>

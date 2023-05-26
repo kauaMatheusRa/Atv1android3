@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:backgroundTint="#000000"
+    tools:context=".View.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,27 +14,45 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="121dp"
+                android:layout_height="130dp"
                 android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginTop="47dp"
+                    android:backgroundTint="#005E4343"
+                    app:srcCompat="?attr/actionModeCloseDrawable"
+                    app:tint="#000000"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="241dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="95dp"
+                    android:layout_marginHorizontal="25dp"
                     android:layout_marginTop="50dp"
                     android:text="@string/txt_titulo_agenda_compromisso"
                     android:textColor="#000000"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                app:srcCompat="@drawable/livro_de_visitas" />
+
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="54dp"
+                android:layout_height="51dp"
                 android:layout_weight="1" />
 
             <TextView
@@ -41,13 +60,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
-                android:text="+ Criar compromisso"
+                android:text="@string/txt_criar_compromisso"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextTitulo"
                 android:layout_width="224dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
@@ -57,7 +76,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/editTextData"
                 android:layout_width="224dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
@@ -67,7 +86,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/editTextHorario"
                 android:layout_width="224dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
@@ -77,7 +96,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName4"
+                android:id="@+id/editTextLocal"
                 android:layout_width="224dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
@@ -87,8 +106,8 @@
                 android:inputType="textPersonName" />
 
             <Space
-                android:layout_width="wrap_content"
-                android:layout_height="37dp"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
                 android:layout_weight="1" />
 
             <LinearLayout
@@ -97,29 +116,29 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/button_salvar"
                     android:layout_width="5dp"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="20dp"
                     android:layout_weight="1"
-                    android:text="Salvar" />
+                    android:text="@string/txt_button_salvar" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/button_limpar"
                     android:layout_width="5dp"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="20dp"
                     android:layout_weight="1"
-                    android:text="Limpar" />
+                    android:text="@string/txt_button_limpar" />
 
             </LinearLayout>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_finalizar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="100dp"
-                android:text="Button" />
+                android:text="@string/txt_button_finalizar" />
 
         </LinearLayout>
     </ScrollView>

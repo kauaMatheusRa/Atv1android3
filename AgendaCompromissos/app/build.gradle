@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'devandroid.kauamatheus.agendacompromissos'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "devandroid.kauamatheus.agendacompromissos"
